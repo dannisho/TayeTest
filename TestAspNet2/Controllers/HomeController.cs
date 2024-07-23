@@ -16,7 +16,7 @@ namespace TestAspNet2.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "New Commit";
             return View();
         }
 
